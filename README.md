@@ -4,9 +4,16 @@ Azure ML contains many powerful machine learning and data manipulation modules. 
 
 This tutorial will show you how to serialize and unserilize lists of R objects. In Azure ML, you can output a data frame from an Execute R Script module, and read this data frame into another Execute R Script module.  By serializing a list of R objects and placing it in a data frame, most any R objects can be passed from one Execute R Script to another.
 
+A companion video on serialization and unserialization of R objects in Azure ML can be found [here](https://www.youtube.com/watch?v=vk9Ic1F9YTk&feature=youtu.be).
+
 ## Background
 
-The discussion in this article uses the models created in my Quick Start Guide to R in Azure ML. If you have not already read the Quick Start Guide, I suggest you do so before you read this article. The Quick Start Guide can be found [here](http://azure.microsoft.com/en-us/documentation/services/machine-learning/).
+The discussion in this article uses the models created in my Quick Start Guide to R in Azure ML. If you have not already read my [Quick Start Guide to R in Azure ML Studio](http://azure.microsoft.com/en-gb/documentation/articles/machine-learning-r-quickstart). The code is available in this [Git repo](https://github.com/Quantia-Analytics/AzureML-R-Quick-Start).
+
+Companion videos are available:
+
+* [Using R in Azure ML](https://www.youtube.com/watch?v=G0r6v2k49ys). 
+* [Time series model with R in Azure ML](https://www.youtube.com/watch?v=q-PJ3p5C0kY).
 
 ## Passing R objects between execute R scripts
 
